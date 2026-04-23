@@ -46,6 +46,7 @@ export default function Home({ navigateTo }: HomeProps) {
   return (
     <div className="page active" id="pg-home">
       <section className="hero">
+        <video src="/Techno.mp4" autoPlay loop muted playsInline className="video-bg" />
         <div className="h-hex"></div>
         <div className="h-radial"></div>
         <div className="h-ring"></div>

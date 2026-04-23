@@ -2,8 +2,8 @@
 
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 :root{
-  --ink:#030407;--deep:#060810;--surface:#0A0C18;
-  --panel:#0E1020;--panel2:#13162A;
+  --ink:#2D0A3F;--deep:#2D0A3F;--surface:#3C0E54;
+  --panel:#4A1168;--panel2:#571578;
   --gold:#B8963E;--gold2:#E8C56A;--gold3:#7A5E1A;--gold4:#F5D688;
   --plat:#8A9BB0;--frost:#C8D4E8;--white:#EEF2FA;
   --accent:#4A7FFF;--green:#3ECF8E;--red:#FF4A6B;--purple:#9B6EFF;
@@ -93,7 +93,8 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:99990;
 .mq-dot{width:3px;height:3px;background:var(--gold);border-radius:50%;opacity:.6;flex-shrink:0}
 
 #pg-home{padding-top:0}
-.hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden;padding:120px 64px 80px}
+.hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden;padding:120px 64px 80px;background-color:#030407;}
+.video-bg{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;z-index:0;opacity:0.3;pointer-events:none}
 .h-hex{position:absolute;inset:0;background-image:repeating-linear-gradient(60deg,rgba(184,150,62,.032) 0,rgba(184,150,62,.032) 1px,transparent 1px,transparent 56px),repeating-linear-gradient(-60deg,rgba(184,150,62,.032) 0,rgba(184,150,62,.032) 1px,transparent 1px,transparent 56px),repeating-linear-gradient(0deg,rgba(184,150,62,.016) 0,rgba(184,150,62,.016) 1px,transparent 1px,transparent 56px);animation:hexMove 26s linear infinite}
 .h-radial{position:absolute;width:860px;height:860px;background:radial-gradient(circle,rgba(184,150,62,.055) 0%,transparent 65%);top:50%;left:50%;transform:translate(-50%,-50%);animation:rPulse 6s ease-in-out infinite alternate;pointer-events:none}
 @keyframes rPulse{from{transform:translate(-50%,-50%) scale(1)}to{transform:translate(-50%,-50%) scale(1.15)}}
@@ -402,3 +403,5 @@ footer{background:var(--ink);border-top:1px solid rgba(184,150,62,.08);position:
 .pb-ai-grid{grid-template-columns:1fr}
 .ap-content{padding:20px 16px}
 }
+
+
