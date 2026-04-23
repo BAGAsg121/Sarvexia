@@ -24,7 +24,7 @@ export default function Loader({ loading }: { loading: boolean }) {
 
   return (
     <div id="loader" className={!loading ? 'out' : ''}>
-      <div className="ld-logo">NYTHEX</div>
+      <div className="ld-logo">SARVEXIA</div>
       <div className="ld-bar">
         <div className="ld-fill" style={{ width: `${percent}%` }}></div>
       </div>

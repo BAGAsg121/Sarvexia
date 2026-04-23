@@ -53,7 +53,7 @@ export default function Home({ navigateTo }: HomeProps) {
         <div className="h-ring"></div>
         <div className="hero-body">
           <div className="h-eyebrow">B2B Fintech Infrastructure & AI Solutions</div>
-          <h1 className="h-title">NYTHEX</h1>
+          <h1 className="h-title">SARVEXIA</h1>
           <p className="h-sub">
             The <em>white-label financial infrastructure</em> and <em>AI intelligence layer</em> your clients never see — and can never operate without.
           </p>
@@ -112,7 +112,7 @@ export default function Home({ navigateTo }: HomeProps) {
       <div className="home-services">
         <div style={{ maxWidth: 1360, margin: '0 auto' }}>
           <span className="sec-tag rv">What We Build</span>
-          <h2 className="sec-h rv d1">Seven Ways <span className="hl">NYTHEX</span> Powers Your Clients</h2>
+          <h2 className="sec-h rv d1">Seven Ways <span className="hl">SARVEXIA</span> Powers Your Clients</h2>
           <div className="grule rv d2"></div>
         </div>
         <div className="hs-grid">
@@ -188,7 +188,7 @@ export default function Home({ navigateTo }: HomeProps) {
               <rect x="24" y="24" width="17" height="17" rx="1"/>
             </svg>
             <div className="hs-name">SaaS Products</div>
-            <p className="hs-desc">Licensed NYTHEX modules — risk dashboards, compliance tracking, transaction monitoring.</p>
+            <p className="hs-desc">Licensed SARVEXIA modules — risk dashboards, compliance tracking, transaction monitoring.</p>
             <button className="lm-btn">Learn More <span className="lm-arrow">→</span></button>
           </div>
 
@@ -246,7 +246,7 @@ export default function Home({ navigateTo }: HomeProps) {
           <h2 className="sec-h rv d1">Integrate With <span className="hl">Any Provider</span></h2>
           <div className="grule rv d2"></div>
           <p className="rv d3" style={{fontSize:15,fontWeight:300,fontStyle:'italic',color:'var(--plat)',maxWidth:580,lineHeight:1.8}}>
-            From Indian payment rails to global AI models — NYTHEX connects your clients' portals to the entire fintech ecosystem.
+            From Indian payment rails to global AI models — SARVEXIA connects your clients' portals to the entire fintech ecosystem.
           </p>
         </div>
         <div className="int-grid">
@@ -429,7 +429,7 @@ export default function Home({ navigateTo }: HomeProps) {
       <div className="home-cta-strip rv">
         <div style={{ position: 'relative', zIndex: 2 }}>
           <h2 className="hcs-h">Your Next Platform<br/><span className="hl">Starts Here.</span></h2>
-          <p className="hcs-sub">Tell us what your client needs. We'll build something they'll never know came from NYTHEX.</p>
+          <p className="hcs-sub">Tell us what your client needs. We'll build something they'll never know came from SARVEXIA.</p>
           <div style={{ display: 'flex', gap: 14, justifyContent: 'center', flexWrap: 'wrap' }}>
             <button className="btn-gold" onClick={() => navigateTo('contact')}>Request a Demo</button>
             <button className="btn-ghost" onClick={() => navigateTo('services')}>View All Services</button>

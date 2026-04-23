@@ -7,7 +7,7 @@ export default function Footer({ navigateTo }: FooterProps) {
     <footer id="main-footer">
       <div className="ft-top">
         <div className="fb">
-          <span className="n-logo">NYTHEX</span>
+          <span className="n-logo">SARVEXIA</span>
           <p>The infrastructure that powers your clients' financial platforms — invisibly, reliably, and at scale.</p>
           <div className="fb-socials">
             <div className="fb-soc">
@@ -38,7 +38,7 @@ export default function Footer({ navigateTo }: FooterProps) {
         <div className="fc">
           <div className="fc-title">Company</div>
           <ul>
-            <li><a onClick={() => navigateTo('about')}>About NYTHEX</a></li>
+            <li><a onClick={() => navigateTo('about')}>About SARVEXIA</a></li>
             <li><a onClick={() => navigateTo('approach')}>How We Work</a></li>
             <li><a onClick={() => navigateTo('clients')}>Clients</a></li>
             <li><a onClick={() => navigateTo('faq')}>FAQ</a></li>
@@ -59,7 +59,7 @@ export default function Footer({ navigateTo }: FooterProps) {
         </div>
       </div>
       <div className="ft-bot">
-        <div className="ft-copy">© 2026 NYTHEX Ltd. All rights reserved.</div>
+        <div className="ft-copy">© 2026 SARVEXIA Ltd. All rights reserved.</div>
         <div className="ft-leg">
           <a onClick={() => navigateTo('privacy')}>Privacy</a>
           <a onClick={() => navigateTo('terms')}>Terms</a>

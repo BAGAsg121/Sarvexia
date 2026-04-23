@@ -125,7 +125,7 @@ export default function AdminPortal({ navigateTo, enabledFeatures }: AdminPortal
       <div className="ap-demo-bar">
         <div className="ap-demo-dot"></div>
         <span>Demo Mode</span>
-        <span style={{color:'var(--gold2)',opacity:1}}>— Live Preview of Nythex White-Label Admin Portal</span>
+        <span style={{color:'var(--gold2)',opacity:1}}>— Live Preview of Sarvexia White-Label Admin Portal</span>
         <span>—</span>
         <span style={{cursor:'none'}} onClick={() => navigateTo('portal-builder')}>
           ← Back to Builder

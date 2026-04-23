@@ -7,13 +7,13 @@ interface ContentPageProps {
 
 const PAGE_DATA: Record<string, { eyebrow: string, title: string, sub: string, content: React.ReactNode }> = {
   'about': {
-    eyebrow: 'About NYTHEX',
+    eyebrow: 'About SARVEXIA',
     title: 'The Invisible Engine of Fintech',
     sub: 'We build the white-label infrastructure that powers next-generation financial platforms—quietly, securely, and at global scale.',
     content: (
       <div className="cp-content">
         <h3>Who We Are</h3>
-        <p>NYTHEX is a premier B2B fintech infrastructure provider and AI solutions engineering firm. We specialize in building bank-grade digital platforms for enterprises, credit unions, neo-banks, and scale-ups.</p>
+        <p>SARVEXIA is a premier B2B fintech infrastructure provider and AI solutions engineering firm. We specialize in building bank-grade digital platforms for enterprises, credit unions, neo-banks, and scale-ups.</p>
         <p>Our core philosophy revolves around invisibility. We believe the best financial technology should blend seamlessly into your brand, offering powerful capabilities without ever stealing the spotlight from your relationship with your customers.</p>
         <h3>Our Mission</h3>
         <p>To democratize access to institutional-grade financial infrastructure by providing modular, deploy-ready solutions layered with generative AI intelligence.</p>
@@ -76,7 +76,7 @@ const PAGE_DATA: Record<string, { eyebrow: string, title: string, sub: string, c
         <div className="grule" style={{ margin: '50px 0 40px' }}></div>
         
         <h3 style={{ margin: '0 0 12px 0', fontSize: '32px' }}>Contributed and Created</h3>
-        <p style={{ marginBottom: '40px', fontSize: '16px' }}>NYTHEX actively contributes to, creates, and integrates with the world's leading open-source platforms and developer tools. Explore our expansive ecosystem:</p>
+        <p style={{ marginBottom: '40px', fontSize: '16px' }}>SARVEXIA actively contributes to, creates, and integrates with the world's leading open-source platforms and developer tools. Explore our expansive ecosystem:</p>
         
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '24px' }}>
           
@@ -198,7 +198,7 @@ const PAGE_DATA: Record<string, { eyebrow: string, title: string, sub: string, c
         </div>
         <div className="faq-item">
           <h4>Do you own the end customers?</h4>
-          <p>No. NYTHEX acts strictly as the technology provider. Your clients remain yours. Our branding never appears on customer-facing interfaces.</p>
+          <p>No. SARVEXIA acts strictly as the technology provider. Your clients remain yours. Our branding never appears on customer-facing interfaces.</p>
         </div>
         <div className="faq-item">
           <h4>What are your uptime guarantees?</h4>
@@ -223,7 +223,7 @@ const PAGE_DATA: Record<string, { eyebrow: string, title: string, sub: string, c
             <p style={{ color: 'var(--plat)', marginBottom: '30px' }}>Reach out to our global team to schedule a technical discovery call or request pricing.</p>
             <div style={{ marginBottom: '20px' }}>
               <div style={{ fontSize: '10px', textTransform: 'uppercase', letterSpacing: '0.2em', color: 'var(--gold)', marginBottom: '4px' }}>Email</div>
-              <div style={{ fontSize: '16px', color: 'var(--white)' }}>partnerships@nythex.com</div>
+              <div style={{ fontSize: '16px', color: 'var(--white)' }}>partnerships@sarvexia.com</div>
             </div>
             <div style={{ marginBottom: '20px' }}>
               <div style={{ fontSize: '10px', textTransform: 'uppercase', letterSpacing: '0.2em', color: 'var(--gold)', marginBottom: '4px' }}>Global HQ</div>
@@ -292,7 +292,7 @@ const PAGE_DATA: Record<string, { eyebrow: string, title: string, sub: string, c
     sub: 'A single unified API layer connecting you to the entire fintech ecosystem.',
     content: (
       <div className="cp-content">
-        <p>Stop managing dozens of fragmented vendor APIs. NYTHEX provides a single, deeply documented REST and GraphQL API layer that handles routing, fallback, and retry logic automatically.</p>
+        <p>Stop managing dozens of fragmented vendor APIs. SARVEXIA provides a single, deeply documented REST and GraphQL API layer that handles routing, fallback, and retry logic automatically.</p>
         <div style={{ padding: '20px', background: 'rgba(74,127,255,0.05)', borderLeft: '3px solid var(--accent)', marginTop: '20px' }}>
           <code style={{ color: 'var(--frost)', fontSize: '13px' }}>POST /v1/transactions/route<br/>
           &#123;<br/>
@@ -342,7 +342,7 @@ const PAGE_DATA: Record<string, { eyebrow: string, title: string, sub: string, c
     sub: 'Plug-and-play modules for risk, compliance, and monitoring.',
     content: (
       <div className="cp-content">
-        <p>Alongside our custom builds, NYTHEX offers standalone SaaS modules designed to augment your existing ecosystem without replacing it.</p>
+        <p>Alongside our custom builds, SARVEXIA offers standalone SaaS modules designed to augment your existing ecosystem without replacing it.</p>
         <ul>
           <li><strong>FraudGuard:</strong> Real-time anomaly detection using machine learning.</li>
           <li><strong>ReconEngine:</strong> Automated T+1 settlement reconciliation and discrepancy flagging.</li>
@@ -381,7 +381,7 @@ const PAGE_DATA: Record<string, { eyebrow: string, title: string, sub: string, c
     sub: 'Join the engineering team that builds the backbone of modern fintech.',
     content: (
       <div className="cp-content">
-        <p>At NYTHEX, we're always looking for elite systems engineers, cryptographers, AI specialists, and product designers to join our global team.</p>
+        <p>At SARVEXIA, we're always looking for elite systems engineers, cryptographers, AI specialists, and product designers to join our global team.</p>
         <p><strong>Open Roles:</strong></p>
         <ul>
           <li><strong>Senior Go Backend Engineer</strong> - Distributed Systems</li>
@@ -389,26 +389,26 @@ const PAGE_DATA: Record<string, { eyebrow: string, title: string, sub: string, c
           <li><strong>Product Designer</strong> - B2B Fintech Interfaces</li>
         </ul>
         <br/>
-        <p>Contact <strong>careers@nythex.com</strong> with your resume.</p>
+        <p>Contact <strong>careers@sarvexia.com</strong> with your resume.</p>
       </div>
     )
   },
   'press': {
     eyebrow: 'Press & Media',
     title: 'News & Announcements',
-    sub: 'The latest updates from NYTHEX headquarters.',
+    sub: 'The latest updates from SARVEXIA headquarters.',
     content: (
       <div className="cp-content">
         <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
           <div style={{ padding: '20px', border: '1px solid rgba(184,150,62,0.1)' }}>
-            <h4 style={{ color: 'var(--white)', marginBottom: '8px' }}>NYTHEX Launches Gen-AI Assistant API</h4>
+            <h4 style={{ color: 'var(--white)', marginBottom: '8px' }}>SARVEXIA Launches Gen-AI Assistant API</h4>
             <p style={{ fontSize: '12px', color: 'var(--gold)', marginBottom: '10px' }}>March 12, 2026</p>
             <p style={{ fontSize: '14px', margin: 0 }}>A new suite of LLM-powered operations tools available for white-label partners.</p>
           </div>
           <div style={{ padding: '20px', border: '1px solid rgba(184,150,62,0.1)' }}>
             <h4 style={{ color: 'var(--white)', marginBottom: '8px' }}>Series B Funding Complete</h4>
             <p style={{ fontSize: '12px', color: 'var(--gold)', marginBottom: '10px' }}>January 04, 2026</p>
-            <p style={{ fontSize: '14px', margin: 0 }}>NYTHEX secures $42M to expand its fintech infrastructure across APAC.</p>
+            <p style={{ fontSize: '14px', margin: 0 }}>SARVEXIA secures $42M to expand its fintech infrastructure across APAC.</p>
           </div>
         </div>
       </div>
@@ -417,12 +417,12 @@ const PAGE_DATA: Record<string, { eyebrow: string, title: string, sub: string, c
   'privacy': {
     eyebrow: 'Legal',
     title: 'Privacy Policy',
-    sub: 'How NYTHEX handles data security and individual privacy.',
+    sub: 'How SARVEXIA handles data security and individual privacy.',
     content: (
       <div className="cp-content">
         <p>Last updated: January 2026</p>
         <h3>1. Data Collection</h3>
-        <p>As a white-label infrastructure provider, NYTHEX acts primarily as a data processor. We collect minimal direct consumer data, processing it solely on behalf of our enterprise clients.</p>
+        <p>As a white-label infrastructure provider, SARVEXIA acts primarily as a data processor. We collect minimal direct consumer data, processing it solely on behalf of our enterprise clients.</p>
         <h3>2. Analytics and Tracking</h3>
         <p>We use strict anonymized analytics on our marketing site. No PII (Personally Identifiable Information) is tracked across sessions without explicit consent.</p>
         <h3>3. Data Retention</h3>
@@ -433,10 +433,10 @@ const PAGE_DATA: Record<string, { eyebrow: string, title: string, sub: string, c
   'terms': {
     eyebrow: 'Legal',
     title: 'Terms of Service',
-    sub: 'Governing the use of NYTHEX infrastructure and APIs.',
+    sub: 'Governing the use of SARVEXIA infrastructure and APIs.',
     content: (
       <div className="cp-content">
-        <p>By accessing the NYTHEX API or deploying our white-label portals, you agree to these underlying terms of service.</p>
+        <p>By accessing the SARVEXIA API or deploying our white-label portals, you agree to these underlying terms of service.</p>
         <h3>Enterprise Master Services Agreement</h3>
         <p>Most of our deployments are governed by a customized Master Services Agreement (MSA) signed during onboarding. The MSA supersedes general terms regarding SLAs, liability, and compliance obligations.</p>
         <h3>Prohibited Use</h3>
@@ -447,7 +447,7 @@ const PAGE_DATA: Record<string, { eyebrow: string, title: string, sub: string, c
   'cookies': {
     eyebrow: 'Legal',
     title: 'Cookie Policy',
-    sub: 'Understanding the trackers active on nythex.com.',
+    sub: 'Understanding the trackers active on sarvexia.com.',
     content: (
       <div className="cp-content">
         <p>We utilize cookies to maintain session states and improve platform security.</p>
@@ -462,11 +462,11 @@ const PAGE_DATA: Record<string, { eyebrow: string, title: string, sub: string, c
   'nda': {
     eyebrow: 'Legal',
     title: 'NDA Request',
-    sub: 'Secure your discussions with NYTHEX.',
+    sub: 'Secure your discussions with SARVEXIA.',
     content: (
       <div className="cp-content">
         <p>We respect the confidentiality of our enterprise partners. Before beginning technical discovery, we sign a mutual Non-Disclosure Agreement.</p>
-        <p>Please email <strong>legal@nythex.com</strong> to request our standard MNDA template or submit your own for our legal team to review.</p>
+        <p>Please email <strong>legal@sarvexia.com</strong> to request our standard MNDA template or submit your own for our legal team to review.</p>
       </div>
     )
   },
@@ -484,7 +484,7 @@ const PAGE_DATA: Record<string, { eyebrow: string, title: string, sub: string, c
           <li>SOC 2 Type II Audited</li>
         </ul>
         <h3>Encryption Standards</h3>
-        <p>All data at rest is encrypted using AES-256. Data in transit is secured using TLS 1.3 across all NYTHEX API perimeters. Root keys are rotated automatically via AWS KMS/Azure Key Vault.</p>
+        <p>All data at rest is encrypted using AES-256. Data in transit is secured using TLS 1.3 across all SARVEXIA API perimeters. Root keys are rotated automatically via AWS KMS/Azure Key Vault.</p>
       </div>
     )
   }

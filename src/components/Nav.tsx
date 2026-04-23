@@ -15,7 +15,7 @@ export default function Nav({ scrolled, currentPage, navigateTo, drawerOpen, tog
   return (
     <nav id="nav" className={scrolled ? 'sc' : ''}>
       <div className="n-logo" onClick={() => navigateTo('home')}>
-        NYTHEX
+        SARVEXIA
       </div>
       <ul className="n-links">
         <li>

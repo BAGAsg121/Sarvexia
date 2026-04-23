@@ -71,7 +71,7 @@ const AI_MODELS = [
   { key: 'gpt4', label: 'GPT-4o', desc: 'OpenAI — best for customer chat & writing', badge: 'OpenAI' },
   { key: 'claude', label: 'Claude 3', desc: 'Anthropic — best for documents & reasoning', badge: 'Anthropic' },
   { key: 'gemini', label: 'Gemini Pro', desc: 'Google — best for multimodal tasks', badge: 'Google' },
-  { key: 'auto', label: 'Auto Select', desc: 'NYTHEX picks the best model per task', badge: 'Recommended' },
+  { key: 'auto', label: 'Auto Select', desc: 'SARVEXIA picks the best model per task', badge: 'Recommended' },
 ];
 
 export default function PortalBuilder({ navigateTo }: PortalBuilderProps) {
