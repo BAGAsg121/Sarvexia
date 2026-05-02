@@ -72,7 +72,7 @@ export default function Canvas() {
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
         ctx.fillStyle = this.gold
-          ? `rgba(184,150,62,${this.opacity})`
+          ? `rgba(255,255,255,${this.opacity})`
           : `rgba(138,155,176,${this.opacity * 0.5})`;
         ctx.fill();
       }
@@ -88,7 +88,7 @@ export default function Canvas() {
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
             ctx.lineTo(particles[j].x, particles[j].y);
-            ctx.strokeStyle = `rgba(184,150,62,${(1 - dist / 100) * 0.05})`;
+            ctx.strokeStyle = `rgba(255,255,255,${(1 - dist / 100) * 0.05})`;
             ctx.lineWidth = 0.5;
             ctx.stroke();
           }

@@ -24,7 +24,7 @@ export default function Nav({ scrolled, currentPage, navigateTo, drawerOpen, tog
             onClick={(e) => { e.preventDefault(); navigateTo('about'); }}
             className={isActive('about') ? 'active' : ''}
           >
-            About
+            ABOUT
           </a>
         </li>
         <li>
@@ -33,7 +33,7 @@ export default function Nav({ scrolled, currentPage, navigateTo, drawerOpen, tog
             onClick={(e) => { e.preventDefault(); navigateTo('services'); }}
             className={isActive('services') ? 'active' : ''}
           >
-            Services
+            SERVICES
           </a>
         </li>
         <li>
@@ -42,7 +42,7 @@ export default function Nav({ scrolled, currentPage, navigateTo, drawerOpen, tog
             onClick={(e) => { e.preventDefault(); navigateTo('approach'); }}
             className={isActive('approach') ? 'active' : ''}
           >
-            How We Work
+            HOW WE WORK
           </a>
         </li>
         <li>
@@ -51,7 +51,7 @@ export default function Nav({ scrolled, currentPage, navigateTo, drawerOpen, tog
             onClick={(e) => { e.preventDefault(); navigateTo('clients'); }}
             className={isActive('clients') ? 'active' : ''}
           >
-            Clients
+            CLIENTS
           </a>
         </li>
         <li>
@@ -69,7 +69,7 @@ export default function Nav({ scrolled, currentPage, navigateTo, drawerOpen, tog
             onClick={(e) => { e.preventDefault(); navigateTo('portal-builder'); }}
             className={isActive('portal-builder') ? 'active' : ''}
           >
-            Build Portal
+            BUILD PORTAL
           </a>
         </li>
         <li>
@@ -77,14 +77,14 @@ export default function Nav({ scrolled, currentPage, navigateTo, drawerOpen, tog
             href="#"
             onClick={(e) => { e.preventDefault(); navigateTo('admin-portal'); }}
             className={isActive('admin-portal') ? 'active' : ''}
-            style={{color:'var(--gold2)',opacity:.9}}
+            style={{opacity:.9}}
           >
-            Demo ✦
+            DEMO+
           </a>
         </li>
       </ul>
       <button className="n-cta" onClick={() => navigateTo('contact')}>
-        Get Started
+        GET STARTED
       </button>
       <div className={`ham ${drawerOpen ? 'open' : ''}`} onClick={toggleDrawer}>
         <span></span>

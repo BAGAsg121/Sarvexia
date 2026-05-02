@@ -172,8 +172,8 @@ export default function PortalBuilder({ navigateTo }: PortalBuilderProps) {
               <h2 style={{fontFamily:'Bebas Neue,sans-serif',fontSize:28,letterSpacing:'.07em',color:'var(--white)',marginBottom:6}}>Configure Features</h2>
               <p style={{fontSize:13,fontWeight:300,color:'var(--plat)',opacity:.65}}>Toggle exactly which capabilities you want enabled in each service.</p>
             </div>
-            {selected.map(sKey => (
-              <div className="pb-feat-section" key={sKey}>
+            {selected.map((sKey, index) => (
+              <div className={`pb-feat-section ${index % 2 === 0 ? 'bg-light-section' : ''}`} key={sKey}>
                 <div className="pb-feat-svc-title">
                   <span>{SERVICES.find(s => s.key === sKey)?.icon}</span>
                   {svcName(sKey)}
@@ -231,9 +231,9 @@ export default function PortalBuilder({ navigateTo }: PortalBuilderProps) {
                     key={p} onClick={() => toggleAiPage(p)}
                     style={{
                       fontFamily:'DM Mono,monospace',fontSize:9,letterSpacing:'.2em',textTransform:'uppercase',
-                      padding:'8px 16px',border:`1px solid ${aiPages.includes(p) ? 'rgba(155,110,255,.5)' : 'rgba(184,150,62,.18)'}`,
+                      padding:'8px 16px',border:`1px solid ${aiPages.includes(p) ? 'rgba(85,85,85,.5)' : 'rgba(255,255,255,.18)'}`,
                       color: aiPages.includes(p) ? 'var(--purple)' : 'var(--plat)',
-                      background: aiPages.includes(p) ? 'rgba(155,110,255,.07)' : 'transparent',
+                      background: aiPages.includes(p) ? 'rgba(85,85,85,.07)' : 'transparent',
                       cursor:'none',transition:'all .25s',
                     }}
                   >{p}</div>
@@ -279,7 +279,7 @@ export default function PortalBuilder({ navigateTo }: PortalBuilderProps) {
               <h2 style={{fontFamily:'Bebas Neue,sans-serif',fontSize:28,letterSpacing:'.07em',color:'var(--white)',marginBottom:6}}>Your Portal Summary</h2>
               <p style={{fontSize:13,fontWeight:300,color:'var(--plat)',opacity:.65}}>Review your configuration, then launch the live interactive demo.</p>
             </div>
-            <div className="pb-summary">
+            <div className="pb-summary bg-light-section">
               <div className="pb-sum-title">Configuration Summary</div>
               <div style={{marginBottom:18}}>
                 <div className="pb-sum-label">Services Selected ({selected.length})</div>
@@ -301,7 +301,7 @@ export default function PortalBuilder({ navigateTo }: PortalBuilderProps) {
                 <div style={{marginBottom:18}}>
                   <div className="pb-sum-label">AI Configuration</div>
                   <div className="pb-sum-row">
-                    <span className="pb-sum-item" style={{borderColor:'rgba(155,110,255,.3)',color:'var(--purple)'}}>
+                    <span className="pb-sum-item" style={{borderColor:'rgba(85,85,85,.3)',color:'var(--purple)'}}>
                       Model: {AI_MODELS.find(m => m.key === aiModel)?.label}
                     </span>
                     {aiPages.slice(0,3).map(p => <span className="pb-sum-item" key={p}>{p}</span>)}

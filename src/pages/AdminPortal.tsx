@@ -198,7 +198,7 @@ export default function AdminPortal({ navigateTo, enabledFeatures }: AdminPortal
                   <div className="ap-stat-bar" style={{width:'30%', background:'linear-gradient(90deg,var(--red),transparent)'}}></div>
                 </div>
               </div>
-              <div className="ap-table-wrap">
+              <div className="ap-table-wrap bg-light-section">
                 <div className="ap-table-head">
                   <div className="ap-table-title">Recent Transactions</div>
                   <button className="ap-action-btn">View All</button>
@@ -242,7 +242,7 @@ export default function AdminPortal({ navigateTo, enabledFeatures }: AdminPortal
                   <button className="ap-btn ap-btn-primary" onClick={() => setShowAddModal(true)}>+ Add User</button>
                 </div>
               </div>
-              <div className="ap-table-wrap">
+              <div className="ap-table-wrap bg-light-section">
                 <div className="ap-table-head">
                   <div className="ap-table-title">All Users</div>
                   <span style={{fontFamily:'DM Mono,monospace',fontSize:9,letterSpacing:'.2em',color:'var(--plat)',opacity:.4,textTransform:'uppercase'}}>
@@ -401,7 +401,7 @@ export default function AdminPortal({ navigateTo, enabledFeatures }: AdminPortal
                   ))}
                 </div>
               </div>
-              <div className="ap-table-wrap">
+              <div className="ap-table-wrap bg-light-section">
                 <div className="ap-table-head"><div className="ap-table-title">All Transactions</div></div>
                 <table className="ap-table">
                   <thead><tr><th>TXN ID</th><th>User</th><th>Type</th><th>Amount</th><th>Status</th><th>Time</th></tr></thead>
@@ -454,7 +454,7 @@ export default function AdminPortal({ navigateTo, enabledFeatures }: AdminPortal
       {toast && (
         <div style={{
           position:'fixed',bottom:32,left:'50%',transform:'translateX(-50%)',
-          background:'var(--panel2)',border:'1px solid rgba(184,150,62,.3)',
+          background:'var(--panel2)',border:'1px solid rgba(255,255,255,.3)',
           padding:'12px 24px',fontFamily:'DM Mono,monospace',fontSize:11,
           letterSpacing:'.18em',color:'var(--gold2)',zIndex:9999,
           boxShadow:'0 16px 40px rgba(0,0,0,.4)',animation:'pgIn .3s ease',

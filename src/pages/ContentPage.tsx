@@ -230,7 +230,7 @@ const PAGE_DATA: Record<string, { eyebrow: string, title: string, sub: string, c
               <div style={{ fontSize: '16px', color: 'var(--white)' }}>Innovation Hub, Cyber City<br />Sector 24, India</div>
             </div>
           </div>
-          <form action="https://formsubmit.co/shlokgoswami58@gmail.com" method="POST" style={{ background: 'var(--surface)', padding: '40px', border: '1px solid rgba(184,150,62,0.1)' }}>
+          <form action="https://formsubmit.co/shlokgoswami58@gmail.com" method="POST" style={{ background: 'var(--surface)', padding: '40px', border: '1px solid rgba(255,255,255,0.1)' }}>
             <h3 style={{ marginBottom: '24px', fontSize: '20px', marginTop: 0 }}>Send a Message</h3>
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_next" value={typeof window !== 'undefined' ? window.location.href : ''} />
@@ -359,15 +359,15 @@ const PAGE_DATA: Record<string, { eyebrow: string, title: string, sub: string, c
       <div className="cp-content">
         <p>AI is no longer optional. We integrate industry-leading models (GPT-4o, Claude 3, Gemini) strictly within secure, private partitions.</p>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px', marginTop: '30px' }}>
-          <div style={{ padding: '20px', background: 'var(--surface)', border: '1px solid rgba(155,110,255,0.2)' }}>
+          <div style={{ padding: '20px', background: 'var(--surface)', border: '1px solid rgba(85,85,85,0.2)' }}>
             <h4 style={{ color: 'var(--purple)', marginBottom: '10px' }}>Support Automation</h4>
             <p style={{ color: 'var(--plat)', fontSize: '13px' }}>AI agents that resolve 80% of level 1 & 2 support tickets instantly.</p>
           </div>
-          <div style={{ padding: '20px', background: 'var(--surface)', border: '1px solid rgba(155,110,255,0.2)' }}>
+          <div style={{ padding: '20px', background: 'var(--surface)', border: '1px solid rgba(85,85,85,0.2)' }}>
             <h4 style={{ color: 'var(--purple)', marginBottom: '10px' }}>Doc Intelligence</h4>
             <p style={{ color: 'var(--plat)', fontSize: '13px' }}>OCR + LLM pairing to extract structured data from unstructured PDFs and images.</p>
           </div>
-          <div style={{ padding: '20px', background: 'var(--surface)', border: '1px solid rgba(155,110,255,0.2)' }}>
+          <div style={{ padding: '20px', background: 'var(--surface)', border: '1px solid rgba(85,85,85,0.2)' }}>
             <h4 style={{ color: 'var(--purple)', marginBottom: '10px' }}>Smart Analytics</h4>
             <p style={{ color: 'var(--plat)', fontSize: '13px' }}>Allow stakeholders to query their databases strictly through natural language text.</p>
           </div>
@@ -400,12 +400,12 @@ const PAGE_DATA: Record<string, { eyebrow: string, title: string, sub: string, c
     content: (
       <div className="cp-content">
         <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-          <div style={{ padding: '20px', border: '1px solid rgba(184,150,62,0.1)' }}>
+          <div style={{ padding: '20px', border: '1px solid rgba(255,255,255,0.1)' }}>
             <h4 style={{ color: 'var(--white)', marginBottom: '8px' }}>SARVEXIA Launches Gen-AI Assistant API</h4>
             <p style={{ fontSize: '12px', color: 'var(--gold)', marginBottom: '10px' }}>March 12, 2026</p>
             <p style={{ fontSize: '14px', margin: 0 }}>A new suite of LLM-powered operations tools available for white-label partners.</p>
           </div>
-          <div style={{ padding: '20px', border: '1px solid rgba(184,150,62,0.1)' }}>
+          <div style={{ padding: '20px', border: '1px solid rgba(255,255,255,0.1)' }}>
             <h4 style={{ color: 'var(--white)', marginBottom: '8px' }}>Series B Funding Complete</h4>
             <p style={{ fontSize: '12px', color: 'var(--gold)', marginBottom: '10px' }}>January 04, 2026</p>
             <p style={{ fontSize: '14px', margin: 0 }}>SARVEXIA secures $42M to expand its fintech infrastructure across APAC.</p>
@@ -521,7 +521,7 @@ export default function ContentPage({ pageId, navigateTo }: ContentPageProps) {
         </div>
       </div>
       
-      <div className="cp-body cp-rv" style={{ transitionDelay: '0.3s' }}>
+      <div className="cp-body cp-rv bg-light-section" style={{ transitionDelay: '0.3s' }}>
         <div className="cp-container">
           {data.content}
         </div>
@@ -546,13 +546,13 @@ export default function ContentPage({ pageId, navigateTo }: ContentPageProps) {
           padding: 180px 64px 80px;
           position: relative;
           text-align: center;
-          border-bottom: 1px solid rgba(184,150,62,0.1);
+          border-bottom: 1px solid rgba(255,255,255,0.1);
           background: linear-gradient(180deg, var(--ink) 0%, var(--deep) 100%);
         }
         .cp-hero-bg {
           position: absolute;
           inset: 0;
-          background: radial-gradient(circle at 50% -20%, rgba(184,150,62,0.08) 0%, transparent 70%);
+          background: radial-gradient(circle at 50% -20%, rgba(255,255,255,0.08) 0%, transparent 70%);
           pointer-events: none;
         }
         .cp-hero-content {
@@ -634,7 +634,7 @@ export default function ContentPage({ pageId, navigateTo }: ContentPageProps) {
         .cp-service-list li {
           padding: 16px;
           background: var(--surface);
-          border: 1px solid rgba(184,150,62,0.1);
+          border: 1px solid rgba(255,255,255,0.1);
           margin-bottom: 16px;
         }
         .cp-service-list li::before {
@@ -642,7 +642,7 @@ export default function ContentPage({ pageId, navigateTo }: ContentPageProps) {
         }
         .cp-faq .faq-item {
           padding: 24px 0;
-          border-bottom: 1px solid rgba(184,150,62,0.1);
+          border-bottom: 1px solid rgba(255,255,255,0.1);
         }
         .cp-faq .faq-item h4 {
           font-size: 20px;
@@ -667,7 +667,7 @@ export default function ContentPage({ pageId, navigateTo }: ContentPageProps) {
 
         .cp-client-cat {
           background: var(--surface);
-          border: 1px solid rgba(184,150,62,0.08);
+          border: 1px solid rgba(255,255,255,0.08);
           padding: 24px;
           border-radius: 4px;
         }
@@ -689,16 +689,16 @@ export default function ContentPage({ pageId, navigateTo }: ContentPageProps) {
           font-size: 11px;
           letter-spacing: 0.05em;
           padding: 6px 14px;
-          background: rgba(184,150,62,0.04);
-          border: 1px solid rgba(184,150,62,0.15);
+          background: rgba(255,255,255,0.04);
+          border: 1px solid rgba(255,255,255,0.15);
           color: var(--plat);
           transition: all 0.3s ease;
           border-radius: 3px;
         }
         .cp-client-tags a:hover {
           color: var(--gold2);
-          border-color: rgba(184,150,62,0.5);
-          background: rgba(184,150,62,0.08);
+          border-color: rgba(255,255,255,0.5);
+          background: rgba(255,255,255,0.08);
           transform: translateY(-2px);
           box-shadow: 0 4px 12px rgba(0,0,0,0.2);
         }
